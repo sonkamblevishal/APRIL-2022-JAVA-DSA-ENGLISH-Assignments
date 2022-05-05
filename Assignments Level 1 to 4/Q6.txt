@@ -1,0 +1,19 @@
+//GKSTR03 Area_Of_Rectangle
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+      int length = scan.nextInt();
+      int breadth = scan.nextInt();
+      
+      int result = length*breadth;
+      System.out.println(result);
+    }
+}

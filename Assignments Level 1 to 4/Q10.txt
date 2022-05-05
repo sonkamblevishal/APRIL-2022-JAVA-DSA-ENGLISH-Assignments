@@ -1,0 +1,26 @@
+//GKSTR07 UpperCase_Or_LowerCase
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+        Scanner scan = new Scanner(System.in);
+        char ch = scan.next().charAt(0);
+      
+            if(ch >='A' && ch <='Z')
+            {
+              System.out.println("Char is Uppercase");
+            }
+            else
+            {
+              System.out.println("Char is Lowercase");
+            }
+    }
+}

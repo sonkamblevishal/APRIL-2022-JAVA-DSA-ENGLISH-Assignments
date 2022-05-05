@@ -1,0 +1,37 @@
+//GKSTR20 Pattern_5
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+      
+           for(int row=1; row<=n ;row++)
+           {
+                //    First inner loop will be a dashes
+               for(int dash=1; dash<=n-row; dash++)
+               {
+                      System.out.print(" "); // given space here
+                   
+               }
+               
+             //  Second inner loop will be Stars
+                for(int stars=1 ; stars<=row ; stars++)
+                {
+                    System.out.print("*");
+                }
+                             
+        
+         System.out.println("");
+        }
+        
+     
+      
+         
+      
+    }
+}

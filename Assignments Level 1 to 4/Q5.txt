@@ -1,0 +1,21 @@
+//GKSTR02 Concatenate_Two_Strings
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      
+       Scanner scan = new Scanner(System.in);
+      
+       String name1 = scan.nextLine();
+       String name2 = scan.nextLine();
+      
+      System.out.print(name1+name2);
+      
+    }
+}

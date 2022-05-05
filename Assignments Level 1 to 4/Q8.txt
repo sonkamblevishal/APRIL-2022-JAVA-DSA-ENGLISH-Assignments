@@ -1,0 +1,27 @@
+//GKSTR05 Is_Square
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      int length = scan.nextInt();
+      int breadth = scan.nextInt();
+      
+      int result = length*breadth;
+      
+      if(length==breadth)
+      {
+        System.out.println("Square");
+      }else
+      {
+        System.out.println("Not a Square");
+      }
+      
+    }
+}
